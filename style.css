@@ -1,0 +1,110 @@
+<style>
+	*{
+		margin:0;
+		padding:0;
+		font-family: Arial, Calibri;
+	}
+
+	body{
+		background-color:#dddddd;
+	}
+	
+	#wrapper{
+		width:780px;
+		margin:0 auto;
+		overflow:hidden;
+	}
+	
+	#header{
+		background: #008080 ;
+		height: 50px;
+		width: 100%;
+		padding:10px;
+		margin: 20px 0;
+		overflow:hidden;
+	}
+	
+	#Main-menu{
+		margin:5px -40px;
+		list-style:none;
+	}
+	#Main-menu li{
+		float:left;
+		padding:15px 20px;
+		
+	}
+	#Main-menu li a{
+		color:#ffffff;
+		text-decoration:none;
+	}
+	
+	#header form {
+		float:right;
+		margin-top: 15px;
+		margin-right: 20px;
+		width:200px;
+	}
+	#header form input{
+		border:none;
+		height:20px;
+		
+	}
+	
+	#article-lists{
+		float:left;
+		width:550px;
+	}
+	
+	#article-lists img{
+		float:left;
+		margin-right:20px;
+	}
+	.artikel{
+		background: #ffffff;
+		padding:10px;
+		margin-bottom:2px;
+		overflow:hidden;	
+	}
+	
+	.artikel h1 {
+		margin-top:-5px;
+	}
+	
+	.artikel h2{
+		margin-top:-20px;
+	}
+	.artikel h3{
+		margin-top:-15px;
+		margin-right:191px;
+		margin-left:220px;
+		background:#C4C8B7;
+		font-size:12px;
+		padding:3px;
+	}
+	#sidebar{
+		float:right;
+		background:#008080;
+		margin-left:570px;
+		margin-top: -720px;
+		padding:10px;
+	}
+	
+	#sidebar h2{
+		color:#ffffff;
+		margin-top:1px;
+	}
+	
+	#sidebar p{
+		margin-top:-10px;
+		margin-left:5px
+	}
+	#sidebar ul{
+		margin-top: -15px;
+	}
+	#sidebar li a{
+		text-decoration:none;
+		color:black;
+	}
+	
+	
+</style>
